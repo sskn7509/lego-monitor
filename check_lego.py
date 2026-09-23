@@ -181,7 +181,7 @@ def send_ntfy_message(title, message):
         url,
         data=message.encode("utf-8"),
         headers={
-            "Title": title,
+            "Title": "LEGO",
             "Priority": "high",
             "Tags": "lego,moneybag",
         },
