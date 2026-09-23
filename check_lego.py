@@ -3,7 +3,7 @@ LEGO「まもなく廃番」セール商品監視スクリプト
 ------------------------------------------
 - 指定ページ内の商品リンクを取得
 - 前回実行時の一覧(state.json)と比較
-- 新しく増えた商品があればLINEに通知
+- 新しく増えた商品があればntfyに通知
 - 最後に今回の一覧をstate.jsonに保存
 """
 
@@ -21,8 +21,8 @@ URL = (
 
 STATE_FILE = "state.json"
 
-LINE_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
-LINE_USER_ID = os.environ.get("LINE_USER_ID")
+# ntfyのTopic
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
 
 
 def fetch_products():
@@ -34,19 +34,24 @@ def fetch_products():
             "Chrome/120.0 Safari/537.36"
         )
     }
+
     resp = requests.get(URL, headers=headers, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
     products = {}
+
     for a in soup.find_all("a", href=True):
         href = a["href"]
+
         if "/ja-jp/product/" in href:
             name = a.get_text(strip=True)
+
             if name:
                 # クエリパラメータを除いてキーを正規化
                 key = href.split("?")[0]
                 products[key] = name
+
     return products
 
 
@@ -54,6 +59,7 @@ def load_previous_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
+
     return {}
 
 
@@ -62,43 +68,57 @@ def save_state(products):
         json.dump(products, f, ensure_ascii=False, indent=2)
 
 
-def send_line_message(text):
-    if not LINE_TOKEN or not LINE_USER_ID:
-        print("LINEの認証情報が未設定のため、通知をスキップしました。")
+def send_ntfy_message(text):
+    """ntfyに通知を送信する"""
+
+    if not NTFY_TOPIC:
+        print("NTFY_TOPICが未設定のため、通知をスキップしました。")
         return
 
     resp = requests.post(
-        "https://api.line.me/v2/bot/message/push",
+        f"https://ntfy.sh/{NTFY_TOPIC}",
+        data=text[:4000].encode("utf-8"),
         headers={
-            "Authorization": f"Bearer {LINE_TOKEN}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "to": LINE_USER_ID,
-            "messages": [{"type": "text", "text": text[:4900]}],  # LINEの文字数上限対策
+            "Title": "LEGO まもなく廃番セール商品",
+            "Priority": "high",
         },
         timeout=30,
     )
-    if resp.status_code != 200:
-        print(f"LINE通知の送信に失敗しました: {resp.status_code} {resp.text}")
+
+    if resp.status_code >= 400:
+        print(f"ntfy通知の送信に失敗しました: {resp.status_code} {resp.text}")
     else:
-        print("LINEに通知を送信しました。")
+        print("ntfyに通知を送信しました。")
 
 
 def main():
     current = fetch_products()
+
     if not current:
-        print("警告: 商品を1件も取得できませんでした。ページ構造が変わった可能性があります。")
+        print(
+            "警告: 商品を1件も取得できませんでした。"
+            "ページ構造が変わった可能性があります。"
+        )
         return
 
     previous = load_previous_state()
-    new_items = {href: name for href, name in current.items() if href not in previous}
+
+    new_items = {
+        href: name
+        for href, name in current.items()
+        if href not in previous
+    }
 
     if new_items:
-        lines = ["【LEGO】まもなく廃番のセール商品が追加されました！"]
+        lines = [
+            "【LEGO】まもなく廃番のセール商品が追加されました！"
+        ]
+
         for href, name in new_items.items():
             lines.append(f"・{name}\n{href}")
-        send_line_message("\n".join(lines))
+
+        send_ntfy_message("\n".join(lines))
+
     else:
         print("新規商品はありませんでした。")
 
