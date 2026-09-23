@@ -26,8 +26,7 @@ jobs:
 
       - name: 監視スクリプトを実行
         env:
-          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python check_lego.py
 
       - name: 状態ファイルをコミット
