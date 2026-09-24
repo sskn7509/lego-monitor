@@ -3,7 +3,7 @@ name: LEGO Retiring Soon Monitor
 on:
   schedule:
     # 10分ごとに実行(GitHub側の負荷状況により数分ずれることがあります)
-    - cron: "*/10 * * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch: {}   # 手動実行ボタンを使えるようにする
 
 permissions:
