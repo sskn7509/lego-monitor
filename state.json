@@ -1,9 +1,86 @@
 {
-  "https://www.lego.com/ja-jp/product/nike-air-max-95-x-lego-little-kids-shoes-5010063": {
-    "name": "Nike Air Max 95 x レゴ® キッズサイズスニーカー",
-    "url": "https://www.lego.com/ja-jp/product/nike-air-max-95-x-lego-little-kids-shoes-5010063",
-    "regular_price": 16280,
-    "sale_price": 11396,
+  "https://www.lego.com/ja-jp/product/mona-lisa-31213": {
+    "name": "モナ・リザ",
+    "url": "https://www.lego.com/ja-jp/product/mona-lisa-31213",
+    "regular_price": 14980,
+    "sale_price": 10486,
     "discount": 30
+  },
+  "https://www.lego.com/ja-jp/product/piranha-plant-71426": {
+    "name": "パックンフラワー",
+    "url": "https://www.lego.com/ja-jp/product/piranha-plant-71426",
+    "regular_price": 9480,
+    "sale_price": 4740,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/501st-clone-troopers-battle-pack-75345": {
+    "name": "クローン・トルーパー501部隊™バトルパック",
+    "url": "https://www.lego.com/ja-jp/product/501st-clone-troopers-battle-pack-75345",
+    "regular_price": 2980,
+    "sale_price": 2086,
+    "discount": 30
+  },
+  "https://www.lego.com/ja-jp/product/french-cafe-10362": {
+    "name": "フレンチカフェ",
+    "url": "https://www.lego.com/ja-jp/product/french-cafe-10362",
+    "regular_price": 12480,
+    "sale_price": 6240,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353": {
+    "name": "Williams Racing FW14B & Nigel Mansell",
+    "url": "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353",
+    "regular_price": 13980,
+    "sale_price": 9786,
+    "discount": 30
+  },
+  "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246": {
+    "name": "Visa Cash App RB VCARB 01 F1® レースカー",
+    "url": "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246",
+    "regular_price": 4480,
+    "sale_price": 3584,
+    "discount": 20
+  },
+  "https://www.lego.com/ja-jp/product/magic-of-disney-21352": {
+    "name": "ディズニーマジック",
+    "url": "https://www.lego.com/ja-jp/product/magic-of-disney-21352",
+    "regular_price": 14980,
+    "sale_price": 7490,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/bmw-m-1000-rr-42130": {
+    "name": "BMW M 1000 RR",
+    "url": "https://www.lego.com/ja-jp/product/bmw-m-1000-rr-42130",
+    "regular_price": 34980,
+    "sale_price": 17490,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637": {
+    "name": "道化のバギーのサーカス小屋",
+    "url": "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637",
+    "regular_price": 8280,
+    "sale_price": 6624,
+    "discount": 20
+  },
+  "https://www.lego.com/ja-jp/product/fountain-garden-10359": {
+    "name": "噴水のある庭",
+    "url": "https://www.lego.com/ja-jp/product/fountain-garden-10359",
+    "regular_price": 15480,
+    "sale_price": 7740,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/super-shadow-vs-biolizard-77003": {
+    "name": "スーパーシャドウ vs バイオリザード",
+    "url": "https://www.lego.com/ja-jp/product/super-shadow-vs-biolizard-77003",
+    "regular_price": 6980,
+    "sale_price": 3490,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/captain-america-civil-war-action-battle-76314": {
+    "name": "シビル・ウォー／キャプテン・アメリカ アクションバトル",
+    "url": "https://www.lego.com/ja-jp/product/captain-america-civil-war-action-battle-76314",
+    "regular_price": 15480,
+    "sale_price": 9288,
+    "discount": 40
   }
 }
