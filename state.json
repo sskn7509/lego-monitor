@@ -6,13 +6,6 @@
     "sale_price": 2086,
     "discount": 30
   },
-  "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353": {
-    "name": "Williams Racing FW14B & Nigel Mansell",
-    "url": "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353",
-    "regular_price": 13980,
-    "sale_price": 9786,
-    "discount": 30
-  },
   "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246": {
     "name": "Visa Cash App RB VCARB 01 F1® レースカー",
     "url": "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246",
@@ -27,12 +20,12 @@
     "sale_price": 6624,
     "discount": 20
   },
-  "https://www.lego.com/ja-jp/product/super-shadow-vs-biolizard-77003": {
-    "name": "スーパーシャドウ vs バイオリザード",
-    "url": "https://www.lego.com/ja-jp/product/super-shadow-vs-biolizard-77003",
-    "regular_price": 6980,
-    "sale_price": 3490,
-    "discount": 50
+  "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353": {
+    "name": "Williams Racing FW14B & Nigel Mansell",
+    "url": "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353",
+    "regular_price": 13980,
+    "sale_price": 9786,
+    "discount": 30
   },
   "https://www.lego.com/ja-jp/product/windmill-village-hut-75636": {
     "name": "フーシャ村",
@@ -41,25 +34,11 @@
     "sale_price": 3984,
     "discount": 20
   },
-  "https://www.lego.com/ja-jp/product/winnie-the-poohs-birthday-party-10457": {
-    "name": "くまのプーさんのバースデーパーティー",
-    "url": "https://www.lego.com/ja-jp/product/winnie-the-poohs-birthday-party-10457",
-    "regular_price": 2980,
-    "sale_price": 1788,
-    "discount": 40
-  },
-  "https://www.lego.com/ja-jp/product/bugatti-bolide-42151": {
-    "name": "ブガッティ ボライド",
-    "url": "https://www.lego.com/ja-jp/product/bugatti-bolide-42151",
-    "regular_price": 7480,
-    "sale_price": 3740,
-    "discount": 50
-  },
-  "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638": {
-    "name": "アーロンパークの戦い",
-    "url": "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638",
-    "regular_price": 12480,
-    "sale_price": 6240,
+  "https://www.lego.com/ja-jp/product/super-shadow-vs-biolizard-77003": {
+    "name": "スーパーシャドウ vs バイオリザード",
+    "url": "https://www.lego.com/ja-jp/product/super-shadow-vs-biolizard-77003",
+    "regular_price": 6980,
+    "sale_price": 3490,
     "discount": 50
   },
   "https://www.lego.com/ja-jp/product/durrr-burger-restaurant-77076": {
@@ -69,11 +48,32 @@
     "sale_price": 7984,
     "discount": 20
   },
+  "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638": {
+    "name": "アーロンパークの戦い",
+    "url": "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638",
+    "regular_price": 12480,
+    "sale_price": 6240,
+    "discount": 50
+  },
   "https://www.lego.com/ja-jp/product/party-at-toads-house-72041": {
     "name": "キノピオハウスでホームパーティ",
     "url": "https://www.lego.com/ja-jp/product/party-at-toads-house-72041",
     "regular_price": 4680,
     "sale_price": 2808,
     "discount": 40
+  },
+  "https://www.lego.com/ja-jp/product/baby-dinosaur-dolores-aquilops-76970": {
+    "name": "赤ちゃん恐竜 ドロレス：アクイロプス",
+    "url": "https://www.lego.com/ja-jp/product/baby-dinosaur-dolores-aquilops-76970",
+    "regular_price": 3980,
+    "sale_price": 1990,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/the-hulk-truck-vs-thanos-76312": {
+    "name": "ハルク・トラック vs. サノス",
+    "url": "https://www.lego.com/ja-jp/product/the-hulk-truck-vs-thanos-76312",
+    "regular_price": 4680,
+    "sale_price": 2340,
+    "discount": 50
   }
 }
