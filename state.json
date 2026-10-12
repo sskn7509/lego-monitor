@@ -69,18 +69,18 @@
     "sale_price": 3490,
     "discount": 50
   },
-  "https://www.lego.com/ja-jp/product/captain-america-civil-war-action-battle-76314": {
-    "name": "シビル・ウォー／キャプテン・アメリカ アクションバトル",
-    "url": "https://www.lego.com/ja-jp/product/captain-america-civil-war-action-battle-76314",
-    "regular_price": 15480,
-    "sale_price": 9288,
-    "discount": 40
-  },
   "https://www.lego.com/ja-jp/product/windmill-village-hut-75636": {
     "name": "フーシャ村",
     "url": "https://www.lego.com/ja-jp/product/windmill-village-hut-75636",
     "regular_price": 4980,
     "sale_price": 3984,
     "discount": 20
+  },
+  "https://www.lego.com/ja-jp/product/winnie-the-poohs-birthday-party-10457": {
+    "name": "くまのプーさんのバースデーパーティー",
+    "url": "https://www.lego.com/ja-jp/product/winnie-the-poohs-birthday-party-10457",
+    "regular_price": 2980,
+    "sale_price": 1788,
+    "discount": 40
   }
 }
