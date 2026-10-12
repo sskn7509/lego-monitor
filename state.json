@@ -41,13 +41,6 @@
     "sale_price": 3490,
     "discount": 50
   },
-  "https://www.lego.com/ja-jp/product/durrr-burger-restaurant-77076": {
-    "name": "ダーバーガー レストラン",
-    "url": "https://www.lego.com/ja-jp/product/durrr-burger-restaurant-77076",
-    "regular_price": 9980,
-    "sale_price": 7984,
-    "discount": 20
-  },
   "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638": {
     "name": "アーロンパークの戦い",
     "url": "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638",
@@ -62,12 +55,12 @@
     "sale_price": 2808,
     "discount": 40
   },
-  "https://www.lego.com/ja-jp/product/baby-dinosaur-dolores-aquilops-76970": {
-    "name": "赤ちゃん恐竜 ドロレス：アクイロプス",
-    "url": "https://www.lego.com/ja-jp/product/baby-dinosaur-dolores-aquilops-76970",
-    "regular_price": 3980,
-    "sale_price": 1990,
-    "discount": 50
+  "https://www.lego.com/ja-jp/product/durrr-burger-restaurant-77076": {
+    "name": "ダーバーガー レストラン",
+    "url": "https://www.lego.com/ja-jp/product/durrr-burger-restaurant-77076",
+    "regular_price": 9980,
+    "sale_price": 7984,
+    "discount": 20
   },
   "https://www.lego.com/ja-jp/product/the-hulk-truck-vs-thanos-76312": {
     "name": "ハルク・トラック vs. サノス",
