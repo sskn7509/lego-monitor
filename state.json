@@ -68,5 +68,12 @@
     "regular_price": 2980,
     "sale_price": 1788,
     "discount": 40
+  },
+  "https://www.lego.com/ja-jp/product/bugatti-bolide-42151": {
+    "name": "ブガッティ ボライド",
+    "url": "https://www.lego.com/ja-jp/product/bugatti-bolide-42151",
+    "regular_price": 7480,
+    "sale_price": 3740,
+    "discount": 50
   }
 }
