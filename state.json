@@ -34,26 +34,12 @@
     "sale_price": 3584,
     "discount": 20
   },
-  "https://www.lego.com/ja-jp/product/bmw-m-1000-rr-42130": {
-    "name": "BMW M 1000 RR",
-    "url": "https://www.lego.com/ja-jp/product/bmw-m-1000-rr-42130",
-    "regular_price": 34980,
-    "sale_price": 17490,
-    "discount": 50
-  },
   "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637": {
     "name": "道化のバギーのサーカス小屋",
     "url": "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637",
     "regular_price": 8280,
     "sale_price": 6624,
     "discount": 20
-  },
-  "https://www.lego.com/ja-jp/product/fountain-garden-10359": {
-    "name": "噴水のある庭",
-    "url": "https://www.lego.com/ja-jp/product/fountain-garden-10359",
-    "regular_price": 15480,
-    "sale_price": 7740,
-    "discount": 50
   },
   "https://www.lego.com/ja-jp/product/super-shadow-vs-biolizard-77003": {
     "name": "スーパーシャドウ vs バイオリザード",
@@ -75,5 +61,19 @@
     "regular_price": 2980,
     "sale_price": 1788,
     "discount": 40
+  },
+  "https://www.lego.com/ja-jp/product/bugatti-bolide-42151": {
+    "name": "ブガッティ ボライド",
+    "url": "https://www.lego.com/ja-jp/product/bugatti-bolide-42151",
+    "regular_price": 7480,
+    "sale_price": 3740,
+    "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638": {
+    "name": "アーロンパークの戦い",
+    "url": "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638",
+    "regular_price": 12480,
+    "sale_price": 6240,
+    "discount": 50
   }
 }
