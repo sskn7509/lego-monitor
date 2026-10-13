@@ -68,5 +68,12 @@
     "regular_price": 4980,
     "sale_price": 3984,
     "discount": 20
+  },
+  "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638": {
+    "name": "アーロンパークの戦い",
+    "url": "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638",
+    "regular_price": 12480,
+    "sale_price": 6240,
+    "discount": 50
   }
 }
