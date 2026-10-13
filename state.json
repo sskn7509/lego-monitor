@@ -41,20 +41,6 @@
     "sale_price": 7584,
     "discount": 20
   },
-  "https://www.lego.com/ja-jp/product/mario-kart-baby-peach-grand-prix-set-72036": {
-    "name": "マリオカート™ – ベビィピーチ と グランプリ セット",
-    "url": "https://www.lego.com/ja-jp/product/mario-kart-baby-peach-grand-prix-set-72036",
-    "regular_price": 12480,
-    "sale_price": 6240,
-    "discount": 50
-  },
-  "https://www.lego.com/ja-jp/product/go-karts-and-race-drivers-60400": {
-    "name": "ゴーカートとレースドライバー",
-    "url": "https://www.lego.com/ja-jp/product/go-karts-and-race-drivers-60400",
-    "regular_price": 1380,
-    "sale_price": 1104,
-    "discount": 20
-  },
   "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353": {
     "name": "Williams Racing FW14B & Nigel Mansell",
     "url": "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353",
@@ -82,5 +68,12 @@
     "regular_price": 3980,
     "sale_price": 1990,
     "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/windmill-village-hut-75636": {
+    "name": "フーシャ村",
+    "url": "https://www.lego.com/ja-jp/product/windmill-village-hut-75636",
+    "regular_price": 4980,
+    "sale_price": 3984,
+    "discount": 20
   }
 }
