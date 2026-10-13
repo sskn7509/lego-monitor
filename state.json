@@ -1,11 +1,4 @@
 {
-  "https://www.lego.com/ja-jp/product/501st-clone-troopers-battle-pack-75345": {
-    "name": "クローン・トルーパー501部隊™バトルパック",
-    "url": "https://www.lego.com/ja-jp/product/501st-clone-troopers-battle-pack-75345",
-    "regular_price": 2980,
-    "sale_price": 2086,
-    "discount": 30
-  },
   "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246": {
     "name": "Visa Cash App RB VCARB 01 F1® レースカー",
     "url": "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246",
@@ -68,5 +61,12 @@
     "regular_price": 7480,
     "sale_price": 3740,
     "discount": 50
+  },
+  "https://www.lego.com/ja-jp/product/fortune-firecracker-80118": {
+    "name": "春節 フォーチュンファイアクラッカー",
+    "url": "https://www.lego.com/ja-jp/product/fortune-firecracker-80118",
+    "regular_price": 13980,
+    "sale_price": 9786,
+    "discount": 30
   }
 }
