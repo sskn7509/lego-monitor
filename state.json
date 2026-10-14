@@ -75,12 +75,5 @@
     "regular_price": 8280,
     "sale_price": 6624,
     "discount": 20
-  },
-  "https://www.lego.com/ja-jp/product/windmill-village-hut-75636": {
-    "name": "フーシャ村",
-    "url": "https://www.lego.com/ja-jp/product/windmill-village-hut-75636",
-    "regular_price": 4980,
-    "sale_price": 3984,
-    "discount": 20
   }
 }
