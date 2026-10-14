@@ -1,4 +1,11 @@
 {
+  "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638": {
+    "name": "アーロンパークの戦い",
+    "url": "https://www.lego.com/ja-jp/product/battle-at-arlong-park-75638",
+    "regular_price": 12480,
+    "sale_price": 6240,
+    "discount": 50
+  },
   "https://www.lego.com/ja-jp/product/winnie-the-poohs-birthday-party-10457": {
     "name": "くまのプーさんのバースデーパーティー",
     "url": "https://www.lego.com/ja-jp/product/winnie-the-poohs-birthday-party-10457",
@@ -68,12 +75,5 @@
     "regular_price": 13980,
     "sale_price": 9786,
     "discount": 30
-  },
-  "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637": {
-    "name": "道化のバギーのサーカス小屋",
-    "url": "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637",
-    "regular_price": 8280,
-    "sale_price": 6624,
-    "discount": 20
   }
 }
