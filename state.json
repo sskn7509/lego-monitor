@@ -20,6 +20,20 @@
     "sale_price": 7584,
     "discount": 20
   },
+  "https://www.lego.com/ja-jp/product/wild-animals-majestic-rhino-with-birds-31171": {
+    "name": "野生のどうぶつ：サイと鳥",
+    "url": "https://www.lego.com/ja-jp/product/wild-animals-majestic-rhino-with-birds-31171",
+    "regular_price": 9980,
+    "sale_price": 6986,
+    "discount": 30
+  },
+  "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353": {
+    "name": "Williams Racing FW14B & Nigel Mansell",
+    "url": "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353",
+    "regular_price": 13980,
+    "sale_price": 9786,
+    "discount": 30
+  },
   "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246": {
     "name": "Visa Cash App RB VCARB 01 F1® レースカー",
     "url": "https://www.lego.com/ja-jp/product/visa-cash-app-rb-vcarb-01-f1-race-car-77246",
@@ -34,32 +48,18 @@
     "sale_price": 7984,
     "discount": 20
   },
-  "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002": {
-    "name": "サイクロン vs メタルソニック",
-    "url": "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002",
-    "regular_price": 4980,
-    "sale_price": 3984,
-    "discount": 20
-  },
-  "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353": {
-    "name": "Williams Racing FW14B & Nigel Mansell",
-    "url": "https://www.lego.com/ja-jp/product/williams-racing-fw14b-nigel-mansell-10353",
-    "regular_price": 13980,
-    "sale_price": 9786,
-    "discount": 30
-  },
-  "https://www.lego.com/ja-jp/product/wild-animals-majestic-rhino-with-birds-31171": {
-    "name": "野生のどうぶつ：サイと鳥",
-    "url": "https://www.lego.com/ja-jp/product/wild-animals-majestic-rhino-with-birds-31171",
-    "regular_price": 9980,
-    "sale_price": 6986,
-    "discount": 30
-  },
   "https://www.lego.com/ja-jp/product/mclaren-f1-team-mcl38-race-car-77251": {
     "name": "McLaren F1® Team MCL38 レースカー",
     "url": "https://www.lego.com/ja-jp/product/mclaren-f1-team-mcl38-race-car-77251",
     "regular_price": 4480,
     "sale_price": 3584,
+    "discount": 20
+  },
+  "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002": {
+    "name": "サイクロン vs メタルソニック",
+    "url": "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002",
+    "regular_price": 4980,
+    "sale_price": 3984,
     "discount": 20
   },
   "https://www.lego.com/ja-jp/product/fortune-firecracker-80118": {
