@@ -34,13 +34,6 @@
     "sale_price": 3584,
     "discount": 20
   },
-  "https://www.lego.com/ja-jp/product/fountain-garden-10359": {
-    "name": "噴水のある庭",
-    "url": "https://www.lego.com/ja-jp/product/fountain-garden-10359",
-    "regular_price": 15480,
-    "sale_price": 7740,
-    "discount": 50
-  },
   "https://www.lego.com/ja-jp/product/durrr-burger-restaurant-77076": {
     "name": "ダーバーガー レストラン",
     "url": "https://www.lego.com/ja-jp/product/durrr-burger-restaurant-77076",
@@ -74,6 +67,13 @@
     "url": "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637",
     "regular_price": 8280,
     "sale_price": 6624,
+    "discount": 20
+  },
+  "https://www.lego.com/ja-jp/product/windmill-village-hut-75636": {
+    "name": "フーシャ村",
+    "url": "https://www.lego.com/ja-jp/product/windmill-village-hut-75636",
+    "regular_price": 4980,
+    "sale_price": 3984,
     "discount": 20
   }
 }
