@@ -55,18 +55,18 @@
     "sale_price": 3584,
     "discount": 20
   },
-  "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002": {
-    "name": "サイクロン vs メタルソニック",
-    "url": "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002",
-    "regular_price": 4980,
-    "sale_price": 3984,
-    "discount": 20
-  },
   "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637": {
     "name": "道化のバギーのサーカス小屋",
     "url": "https://www.lego.com/ja-jp/product/buggy-the-clowns-circus-tent-75637",
     "regular_price": 8280,
     "sale_price": 6624,
+    "discount": 20
+  },
+  "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002": {
+    "name": "サイクロン vs メタルソニック",
+    "url": "https://www.lego.com/ja-jp/product/cyclone-vs-metal-sonic-77002",
+    "regular_price": 4980,
+    "sale_price": 3984,
     "discount": 20
   }
 }
